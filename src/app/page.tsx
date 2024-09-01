@@ -1,12 +1,7 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { AuthScreen } from "@/features/auth/components/auth-screen";
 
 export default function Home() {
   return (
-    <div className="p-4">
-      <Button>
-        Click
-      </Button>
-    </div>
+     <AuthScreen />
   );
 }
